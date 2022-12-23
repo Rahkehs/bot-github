@@ -10,8 +10,9 @@ const makeCommit = (x, y) => {
     const data = {
         date: DATE
     }
+    console.log(DATE);
     jsonfile.writeFile(FILE_PATH, data, () => {
         simpleGit().add([FILE_PATH]).commit(DATE, { '--date': DATE }).push();
     });
 }
-makeCommit(145, 105);
+makeCommit(48, 10);

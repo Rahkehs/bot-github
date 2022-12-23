@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Do you want a copy?",
     "main": "index.js",
+    "type": "commonjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -19,8 +20,7 @@
     "dependencies": {
         "jsonfile": "^6.1.0",
         "moment": "^2.29.4",
-        "random": "4.1.0",
+        "random": "^4.1.0",
         "simple-git": "^3.15.1"
-
     }
 }
